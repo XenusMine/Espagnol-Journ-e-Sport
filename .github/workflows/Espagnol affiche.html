@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Día Mundial de la Actividad Física</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#00c6ff,#0072ff);
+      color:white;
+    }
+
+    header{
+      text-align:center;
+      padding:60px 20px;
+    }
+
+    header h1{
+      font-size:60px;
+      margin-bottom:20px;
+      text-shadow:2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    header p{
+      font-size:22px;
+      max-width:800px;
+      margin:auto;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      padding:15px 35px;
+      background:white;
+      color:#0072ff;
+      font-size:20px;
+      font-weight:bold;
+      border-radius:40px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.08);
+      background:#ffe600;
+      color:black;
+    }
+
+    .sports{
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    .sports h2{
+      font-size:45px;
+      margin-bottom:40px;
+    }
+
+    .cards{
+      display:flex;
+      justify-content:center;
+      gap:25px;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      background:white;
+      color:black;
+      width:220px;
+      padding:25px;
+      border-radius:20px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card h3{
+      font-size:28px;
+      margin-bottom:10px;
+    }
+
+    .info{
+      background:#f4f4f4;
+      padding:25px;
+      border-radius:15px;
+      width:250px;
+    }
+
+    .infos{
+      background:white;
+      color:black;
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    .infos h2{
+      font-size:45px;
+      margin-bottom:30px;
+      color:#0072ff;
+    }
+
+    .info-box{
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      flex-wrap:wrap;
+    }
+
+    .info h3{
+      color:#0072ff;
+      margin-bottom:10px;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#003b8e;
+      font-size:18px;
+    }
+
+    @media(max-width:700px){
+
+      header h1{
+        font-size:40px;
+      }
+
+      .sports h2,
+      .infos h2{
+        font-size:32px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🏃 Día Mundial de la Actividad Física 🏀</h1>
+
+    <p>
+      ¡Ven a participar en un día increíble lleno de deporte,
+      energía y diversión! Descubre diferentes actividades como
+      fútbol, baloncesto, natación, voleibol y carrera.
+    </p>
+
+    <a href="#infos" class="btn">Unirse al evento</a>
+  </header>
+
+  <section class="sports">
+
+    <h2>🔥 Deportes disponibles 🔥</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🏃 Carrera</h3>
+        <p>Pon a prueba tu velocidad y supera tus límites.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏊 Natación</h3>
+        <p>Diviértete con actividades acuáticas.</p>
+      </div>
+
+      <div class="card">
+        <h3>⚽ Fútbol</h3>
+        <p>Juega con tus amigos y marca goles.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏀 Baloncesto</h3>
+        <p>Demuestra tus mejores tiros y clavadas.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏐 Voleibol</h3>
+        <p>¡Salta, remata y diviértete!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="infos" id="infos">
+
+    <h2>📅 Información del evento</h2>
+
+    <div class="info-box">
+
+      <div class="info">
+        <h3>📆 Fecha</h3>
+        <p>6 de abril</p>
+      </div>
+
+      <div class="info">
+        <h3>⏰ Hora</h3>
+        <p>8:00 a.m. a 1:00 p.m.</p>
+      </div>
+
+      <div class="info">
+        <h3>📍 Lugar</h3>
+        <p>Parque Central de tu ciudad</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    💙 Cada movimiento cuenta — ¡Muévete, juega y diviértete!
+  </footer>
+
+</body>
+</html>
